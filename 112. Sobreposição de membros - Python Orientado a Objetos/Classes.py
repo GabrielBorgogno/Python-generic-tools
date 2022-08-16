@@ -14,3 +14,6 @@ class Cliente(Pessoa):
 class Aluno (Pessoa):
     def estudar(self):
         print(f'{self.nomeclasee} estudando...')
+
+class ClienteVIP(Cliente):
+    pass
